@@ -21,3 +21,4 @@ while True:
         checkinputpair = input("Enter a trading pair (e.g., BTC/USDT) or press Enter to exit:")
         if checkinputpair == "":
             print("Exiting the program.")
+            break
