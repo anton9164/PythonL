@@ -18,7 +18,3 @@ while True:
             break
     else:
         print(f"Trading pair {checkinputpair} is not supported. Please check the pair and try again.")
-        checkinputpair = input("Enter a trading pair (e.g., BTC/USDT) or press Enter to exit:")
-        if checkinputpair == "":
-            print("Exiting the program.")
-            break
